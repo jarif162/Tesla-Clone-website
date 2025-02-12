@@ -9,178 +9,188 @@
   </head>
 
   <body>
-    <header class="relative">
-      <nav
-        class="flex justify-between text-xl w-full items-center fixed top-0 z-10 h-28 py-4 px-8 nav-bar"
+    <main class="snap-feature snap-y snap-mandatory h-screen overflow-scroll">
+      <header class="relative">
+        <nav
+          class="flex justify-between text-xl w-full items-center fixed top-0 z-10 h-28 py-4 px-8 nav-bar"
+        >
+          <div class="logo mr-[9.5rem]">
+            <svg
+              class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon h-8"
+              viewBox="0 0 342 35"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="currentColor"
+                d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"
+              ></path>
+            </svg>
+          </div>
+          <div class="hidden lg:block">
+            <a
+              href="#ModelS"
+              class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] bg-transparent duration-500 hover:bg-slate-600 hover:bg-opacity-40 ;"
+              >Model S</a
+            >
+            <a
+              href="#Model3"
+              class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
+              >Model 3</a
+            >
+            <a
+              href="#ModelX"
+              class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
+              >Model X</a
+            >
+            <a
+              href="#ModelY"
+              class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
+              >Model Y</a
+            >
+            <a
+              href="#SolarRoof"
+              class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
+              >Solar Roof</a
+            >
+            <a
+              href="#SolarPanels"
+              class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
+              >Solar Panels</a
+            >
+          </div>
+          <div class="links">
+            <a
+              href="#shop "
+              class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 hidden lg:inline-block ;"
+              >Shop</a
+            >
+            <a
+              href="#account"
+              class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 hidden lg:inline-block ;"
+              >Account</a
+            >
+            <a
+              href="#menu"
+              class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
+              >Menu</a
+            >
+          </div>
+        </nav>
+      </header>
+
+      <section
+        id="model3"
+        class="car-section w-full h-screen relative snap-always snap-start"
       >
-        <div class="logo mr-[9.5rem]">
-          <svg
-            class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon h-8"
-            viewBox="0 0 342 35"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill="currentColor"
-              d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"
-            ></path>
-          </svg>
+        <img
+          class="car-img w-full h-full"
+          src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-NA-v3.png"
+          alt="model 3"
+        />
+        <div
+          class="car-details absolute top-[20%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white"
+        >
+          <h2 class="car-name text-[4rem] text-slate-800 font-semibold">
+            Model
+          </h2>
+          <p class="car-tagline text-2xl text-slate-800">
+            Order Online for <span class="underline"> Touchless Delivery</span>
+          </p>
         </div>
-        <div class="">
+
+        <div
+          class="car-buttons absolute bottom-[7%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white flex gap-3"
+        >
           <a
-            href="#ModelS"
-            class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] bg-transparent duration-500 hover:bg-slate-600 hover:bg-opacity-40 ;"
-            >Model S</a
-          >
-          <a
-            href="#Model3"
-            class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
-            >Model 3</a
-          >
-          <a
-            href="#ModelX"
-            class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
-            >Model X</a
-          >
-          <a
-            href="#ModelY"
-            class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
-            >Model Y</a
-          >
-          <a
-            href="#SolarRoof"
-            class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
-            >Solar Roof</a
-          >
-          <a
-            href="#SolarPanels"
-            class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
-            >Solar Panels</a
-          >
-        </div>
-        <div class="links">
-          <a
-            href="# "
-            class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
-            >Shop</a
+            href="#"
+            class="btn inline-block w-[25rem] h-16 rounded-[10rem] text-xl text-white bg-gray-700 px-10 mx-2 pt-4 text-center font-medium uppercase"
+            >Custom Order</a
           >
           <a
             href="#"
-            class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
-            >Account</a
+            class="btn inline-block w-[25rem] h-16 rounded-[10rem] text-xl text-gray-900 bg-slate-100 mx-2 px-10 pt-4 text-center font-medium uppercase"
+            >Existing Inventory</a
+          >
+        </div>
+
+        <div
+          class="down-arrow absolute bottom-[5px] left-[50%] translate-x-[-50%] translate-y-[-50%]s"
+        >
+          <a href="#modelY">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-12 w-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <section
+        id="modelY"
+        class="car-section w-full h-screen relative snap-always snap-start"
+      >
+        <img
+          class="car-img w-full h-full"
+          src="https://media.ed.edmunds-media.com/tesla/model-3/2024/lt/2024_tesla_model-3_det_lt_3343_1600.jpg"
+          alt="model y"
+        />
+        <div
+          class="car-details absolute top-[20%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white"
+        >
+          <h2 class="car-name text-[4rem] text-slate-800 font-semibold">
+            Model
+          </h2>
+          <p class="car-tagline text-2xl text-slate-800">
+            Order Online for <span class="underline"> Touchless Delivery</span>
+          </p>
+        </div>
+
+        <div
+          class="car-buttons absolute bottom-[7%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white flex gap-3"
+        >
+          <a
+            href="#"
+            class="btn inline-block w-[25rem] h-16 rounded-[10rem] text-xl text-white bg-gray-700 px-10 mx-2 pt-4 text-center font-medium uppercase"
+            >Custom Order</a
           >
           <a
             href="#"
-            class=".nav-items text-2xl font-semibold text-slate-900 py-2 px-5 rounded-[1.25rem] duration-500 hover:text-slate-300 hover:bg-slate-500 hover:bg-opacity-65 ;"
-            >Menu</a
+            class="btn inline-block w-[25rem] h-16 rounded-[10rem] text-xl text-gray-900 bg-slate-100 mx-2 px-10 pt-4 text-center font-medium uppercase"
+            >Existing Inventory</a
           >
         </div>
-      </nav>
-    </header>
 
-    <section id="model3" class="car-section w-full h-screen relative">
-      <img
-        class="car-img w-full h-full"
-        src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-NA-v3.png"
-        alt="model 3"
-      />
-      <div
-        class="car-details absolute top-[20%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white"
-      >
-        <h2 class="car-name text-[4rem] text-slate-800 font-semibold">Model</h2>
-        <p class="car-tagline text-2xl text-slate-800">
-          Order Online for <span class="underline"> Touchless Delivery</span>
-        </p>
-      </div>
-
-      <div
-        class="car-buttons absolute bottom-[7%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white flex gap-3"
-      >
-        <a
-          href="#"
-          class="btn inline-block w-[25rem] h-16 rounded-[10rem] text-xl text-white bg-gray-700 px-10 mx-2 pt-4 text-center font-medium uppercase"
-          >Custom Order</a
+        <div
+          class="down-arrow absolute bottom-[5px] left-[50%] translate-x-[-50%] translate-y-[-50%]s"
         >
-        <a
-          href="#"
-          class="btn inline-block w-[25rem] h-16 rounded-[10rem] text-xl text-gray-900 bg-slate-100 mx-2 px-10 pt-4 text-center font-medium uppercase"
-          >Existing Inventory</a
-        >
-      </div>
-
-      <div
-        class="down-arrow absolute bottom-[5px] left-[50%] translate-x-[-50%] translate-y-[-50%]s"
-      >
-        <a href="#modelY">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="h-12 w-12 animate-bounce"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m19.5 8.25-7.5 7.5-7.5-7.5"
-            />
-          </svg>
-        </a>
-      </div>
-    </section>
-
-    <section id="modelY" class="car-section w-full h-screen relative">
-      <img
-        class="car-img w-full h-full"
-        src="https://media.ed.edmunds-media.com/tesla/model-3/2024/lt/2024_tesla_model-3_det_lt_3343_1600.jpg"
-        alt="model y"
-      />
-      <div
-        class="car-details absolute top-[20%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white"
-      >
-        <h2 class="car-name text-[4rem] text-slate-800 font-semibold">Model</h2>
-        <p class="car-tagline text-2xl text-slate-800">
-          Order Online for <span class="underline"> Touchless Delivery</span>
-        </p>
-      </div>
-
-      <div
-        class="car-buttons absolute bottom-[7%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-white flex gap-3"
-      >
-        <a
-          href="#"
-          class="btn inline-block w-[25rem] h-16 rounded-[10rem] text-xl text-white bg-gray-700 px-10 mx-2 pt-4 text-center font-medium uppercase"
-          >Custom Order</a
-        >
-        <a
-          href="#"
-          class="btn inline-block w-[25rem] h-16 rounded-[10rem] text-xl text-gray-900 bg-slate-100 mx-2 px-10 pt-4 text-center font-medium uppercase"
-          >Existing Inventory</a
-        >
-      </div>
-
-      <div
-        class="down-arrow absolute bottom-[5px] left-[50%] translate-x-[-50%] translate-y-[-50%]s"
-      >
-        <a href="#">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="h-12 w-12 animate-bounce"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m19.5 8.25-7.5 7.5-7.5-7.5"
-            />
-          </svg>
-        </a>
-      </div>
-    </section>
-
-    <script src="app.js"></script>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-12 w-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
